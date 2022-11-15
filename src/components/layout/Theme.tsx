@@ -1,12 +1,11 @@
 import {
   createTheme, ThemeOptions, ThemeProvider
-} from "@material-ui/core/styles";
+} from "@mui/material/styles";
 import { FC, ReactNode } from 'react';
 
 type PropTypes = {
   children: ReactNode
 }
-
 
 
 const theme = createTheme({
