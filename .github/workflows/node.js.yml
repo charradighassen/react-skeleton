@@ -41,7 +41,7 @@ jobs:
     - run: npm test
     
   build-and-deploy: 
-    needs: install-and-Test
+    # needs: install-and-Test
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -52,5 +52,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: build
+          FOLDER: .
           BUILD_SCRIPT: yarn install && yarn build
