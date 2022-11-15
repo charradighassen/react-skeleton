@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/293.10e6863c.chunk.js","mappings":"wIAWA,UAVA,WACE,OACE,gBAAKA,UAAU,MAAK,UAClB,8CAKN,C","sources":["pages/Home.tsx"],"sourcesContent":["\nfunction App() {\n  return (\n    <div className=\"App\">\n      <div>\n        Hello World !!!\n      </div>\n    </div>\n  )\n}\n\nexport default App\n"],"names":["className"],"sourceRoot":""}
