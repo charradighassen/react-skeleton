@@ -1,4 +1,4 @@
-# Let's start Coding `:yum:` 
+# Let's start Coding `
 
 This project is Skeleton for web app based on create react app, with initial configurations and 3rd party libraries installed.
 
