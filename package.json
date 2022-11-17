@@ -1,8 +1,8 @@
 {
   "name": "react-skeleton",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://charradighassen.github.io/react-skeleton",
+  "private": false,
+  "homepage": ".",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
@@ -35,6 +35,8 @@
     "yup": "^0.32.11"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -60,6 +62,7 @@
   },
   "devDependencies": {
     "@types/loadable__component": "^5.13.4",
-    "@types/yup": "^0.32.0"
+    "@types/yup": "^0.32.0",
+    "gh-pages": "^4.0.0"
   }
 }
