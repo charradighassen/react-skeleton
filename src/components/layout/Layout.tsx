@@ -14,13 +14,14 @@ const classes = {
 const Root = styled('div')(({ theme }) => ({
   [`&.${classes.root}`]: {
     display: 'flex',
+    justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: theme.palette.primary.light
   },
   [`& .${classes.content}`]: {
     color: theme.palette.common.white,
     fontSize: 16,
-    lineHeight: 1.7
+    lineHeight: 1.7,
   },
 }))
 

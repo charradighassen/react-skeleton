@@ -3,7 +3,7 @@ import Home from './pages/Home';
 
 test('Hello World!!!', () => {
   render(<Home />);
-  const linkElement = screen.getByText(/hello world/i);
+  const linkElement = screen.getByText(/hello/i);
   expect(linkElement).toBeInTheDocument();
 
 });
