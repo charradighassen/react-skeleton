@@ -1,13 +1,14 @@
-# Let's start Coding
+# Let's start Coding `:yum:` 
 
 This project is Skeleton for web app based on create react app, with initial configurations and 3rd party libraries installed.
 
-[Go to Home page ](https://charradighassen.github.io/react-skeleton/)
+[Hello World](https://charradighassen.github.io/react-skeleton/)
  
 ## features supported
 * Type Checking
 * multilingual
 * Testing 
+* github actions
 
 ## Installed libraries
 * React / ReactDom  V18
